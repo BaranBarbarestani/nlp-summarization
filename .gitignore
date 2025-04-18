@@ -1,0 +1,18 @@
+# Ignore Python environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+pyvenv.cfg
+venv/
+.venv/
+.env/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+
+# Ignore other environment-related files
+.env
+
