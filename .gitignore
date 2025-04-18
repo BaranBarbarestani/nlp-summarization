@@ -2,7 +2,7 @@
 .venv/
 venv/
 pyvenv.cfg
-
+lib/python3.10/site-packages/torch/lib/libtorch_cpu.dylib
 # Ignore Python bytecode files
 __pycache__/
 *.pyc
