@@ -1,3 +1,60 @@
+# Ignore Python virtual environment files
+.venv/
+venv/
+pyvenv.cfg
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# System files (macOS/Linux)
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor-specific files
+.idea/
+# Ignore virtual environment files
+.venv/
+venv/
+pyvenv.cfg
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore bin files in the virtual environment
+bin/
+
+# Ignore unnecessary library files
+lib/
+.vscode/
+
+# Ignore libraries and large files (like PyTorch, Werkzeug, etc.)
+lib/
+
+# Ignore unnecessary files from the virtual environment (like site-packages)
+lib/python3.10/site-packages/werkzeug/
+lib/python3.10/site-packages/yaml/
 # Ignore Python environment files
 __pycache__/
 *.pyc
@@ -15,4 +72,42 @@ venv/
 
 # Ignore other environment-related files
 .env
+
+# Ignore large files in lib/ directory (e.g., PyTorch binaries)
+lib/python3.10/site-packages/torch/lib/
+
+# Ignore Python virtual environments
+.venv/
+venv/
+__pycache__/
+pyvenv.cfg
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large files or directories
+lib/python3.10/site-packages/torch/lib/
+
+# Ignore specific files
+share/man/man1/isympy.1
+templates/index.html
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+bin/
+lib/
+pyvenv.cfg
+
+# Ignore system-specific files
+.DS_Store
 
