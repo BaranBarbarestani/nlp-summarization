@@ -1,13 +1,13 @@
 # Text Summarization with BART
 
-This is a simple implementation of text summarization using a pre-trained BART model.
+This project demonstrates text summarization using the BART model (Bidirectional and Auto-Regressive Transformers). We use the Hugging Face `transformers` library to utilize a pre-trained model for automatic text summarization.
 
 ## Installation
 
-Clone the repository and install the dependencies:
+To run this project, you need to clone the repository and install the required dependencies.
+
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/baranbarbarestani/nlp-summarization.git
+git clone https://github.com/BaranBarbarestani/nlp-summarization.git
 cd nlp-summarization
-pip install -r requirements.txt
-
